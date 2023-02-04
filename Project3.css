@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(assest/pexels-maxyne-barcel-10402282\ 1.png);
+    background-size: cover;
+    height: 100%;
+    width:100%;
+    background-attachment: fixed;
+
+}
+nav{
+    margin-top: 20px;
+    margin-left:  20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav img{
+    height: 40px;
+    margin-right: 250px;
+
+}
+nav ul{
+    display: flex;
+    color:yellow;
+}
+nav ul li a{
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px;
+
+}
+li:hover{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+button{
+    margin-left: 300px;
+    margin-right: 20px;
+    background-color:rgb(230, 80, 95);
+    padding:5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: aquamarine;
+    border: 2px solid rgb(230, 80, 95) ;
+}
+button:hover{
+    cursor: pointer;
+    background-color: azure;
+    color: #ff7200;
+    
+}
+
+.main div{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    font-size: 40px;
+    color: rgb(255, 255, 78);
+    font-stretch: expanded;
+    font-weight: 900;
+}
+#serve{
+  padding-left: 50px;
+}
+h1 span{
+   padding-left: 20px;
+}
+.btn{
+    margin-top:20px ;
+  display: flex;
+   margin-left: 20px;
+   margin-bottom: 15px;
+}
+footer{
+    float: right;
+}
+footer div img{
+    margin-right: 25px;
+    height: 90px;
+    width: 90px;
+    margin-top: 70px;
+}
